@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Sufyaan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sufyaan notes and assignments">
+
+    <title>Notes &amp; Assignments</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16x16.png">
+    <link rel="manifest" href="./icons/site.webmanifest">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="./cards.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="dark-theme">
+    <nav class="hidden noselect">
+        <a id="nav-name" href="https://sufyn.github.io">sufyn<span>.github.io</span></a>
+        <a href="./icons/resume.pdf" target="_blank">cv</a>
+        <a onmouseup="scrollToTop()">notes &amp; assignments</a>
+        <a href="https://github.com/sufyn" target="_blank">github</a>
+        <div class="theme-toggles">
+            <div id="nav-theme-light" class="material-icons" onmouseup="toggleTheme()" title="Dark mode">dark_mode</div>
+            <div id="nav-theme-dark" class="material-icons" onmouseup="toggleTheme()" title="Light mode">light_mode
+            </div>
+        </div>
+    </nav>
+    <div id="global-container">
+        <div id="logo-container">
+            <img id="logo" src="./icons/logo_alpha.svg" alt="" onmouseup="toggleTheme()" />
+            <div id="assignments">Notes &amp; Assignments</div>
+        </div>
+        <!-- <div id="y4s2-label" class="card-container accordion w-15">
+            <div class="card borderless">
+                <div class="card-title">
+                    Year IV, Spring
+                </div>
+            </div>
+        </div>
+        <div id="y4s2-card-container" class="card-container panel">
+            <div id="dmsday" class="card borderless">
+                <div class="card-title">
+                    DMS Day
+                </div>
+                <ul class="card-inner-container">
+                    <li class="card-item">
+                        The Three Classical Problems :
+                        <div class="problem-solution-links">
+                            <a href="DMSDay/presentation.pdf" target="_blank">slides</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="ma4203" class="card borderless">
+                <div class="card-title">
+                    MA4203 - Probability II
+                </div>
+                <ul class="card-inner-container">
+                    <li class="card-item">
+                        Assignments :
+                        <div class="problem-solution-links">
+                            <a href="MA4203/problems.pdf" target="_blank">solutions</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="y4s1-label" class="card-container accordion w-15">
+            <div class="card borderless">
+                <div class="card-title">
+                    Year IV, Autumn
+                </div>
+            </div>
+        </div>
+        <div id="y4s1-card-container" class="card-container panel">
+            <div id="ma4102" class="card borderless">
+                <div class="card-title">
+                    MA4102 - Functional Analysis
+                </div>
+                <ul class="card-inner-container">
+                    <li class="card-item">
+                        Notes :
+                        <div class="problem-solution-links">
+                            <a href="MA4102/notes.pdf" target="_blank">notes</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="ma4103" class="card borderless">
+                <div class="card-title">
+                    MA4103 - Analysis V
+                </div>
+                <ul class="card-inner-container">
+                    <li class="card-item">
+                        Notes :
+                        <div class="problem-solution-links">
+                            <a href="MA4103/notes.pdf" target="_blank">notes</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="y3s2-label" class="card-container accordion w-15">
+            <div class="card borderless">
+                <div class="card-title">
+                    Year III, Spring
+                </div>
+            </div>
+        </div>
+        <div id="y3s2-card-container" class="card-container panel">
+            <div id="ma3201" class="card borderless">
+                <div class="card-title">
+                    MA3201 - Topology
+                </div>
+                <ul class="card-inner-container">
+                    <li class="card-item">
+                        Notes :
+                        <div class="problem-solution-links">
+                            <a href="MA3201/notes.pdf" target="_blank">notes</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="ma3202" class="card borderless">
+                <div class="card-title">
+                    MA3202 - Algebra II
+                </div>
+                <ul class="card-inner-container">
+                    <li class="card-item">
+                        Notes :
+                        <div class="problem-solution-links">
+                            <a href="MA3202/notes.pdf" target="_blank">notes</a>
+                        </div>
+                    </li>
+                    <li class="card-item">
+                        Exercises :
+                        <div class="problem-solution-links">
+                            <a href="MA3202/exercises1.pdf" target="_blank">solutions</a>
+                            <a href="MA3202/exercises2.pdf" target="_blank">solutions</a>
+                            <a href="MA3202/exercises3.pdf" target="_blank">solutions</a>
+                            <a href="MA3202/exercises4.pdf" target="_blank">solutions</a>
+                            <a href="MA3202/exercises5.pdf" target="_blank">solutions</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="ma3203" class="card borderless">
+                <div class="card-title">
+                    MA3203 - Analysis IV
+                </div>
+                <ul class="card-inner-container">
+                    <li class="card-item">
+                        Notes :
+                        <div class="problem-solution-links">
+                            <a href="MA3203/notes.pdf" target="_blank">notes</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="ma3205" class="card borderless">
+                <div class="card-title">
+                    MA3205 - Geometry of Curves and Surfaces
+                </div>
+                <ul class="card-inner-container">
+                    <li class="card-item">
+                        Notes :
+                        <div class="problem-solution-links">
+                            <a href="MA3205/notes.pdf" target="_blank">notes</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="ma3206" class="card borderless">
+                <div class="card-title">
+                    MA3206 - Statistics I
+                </div>
+                <ul class="card-inner-container">
+                    <li class="card-item">
+                        Notes :
+                        <div class="problem-solution-links">
+                            <a href="MA3206/notes.pdf" target="_blank">notes</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="y3s1-label" class="card-container accordion w-15">
+            <div class="card borderless">
+                <div class="card-title">
+                    Year III, Autumn
+                </div>
+            </div>
+        </div>
+        <div id="y3s1-card-container" class="card-container panel">
+            <div id="ma3101" class="card borderless">
+                <div class="card-title">
+                    MA3101 - Analysis III
+                </div>
+                <ul class="card-inner-container">
+                    <li class="card-item">
+                        Notes :
+                        <div class="problem-solution-links">
+                            <a href="MA3101/notes.pdf" target="_blank">notes</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="ma3102" class="card borderless">
+                <div class="card-title">
+                    MA3102 - Algebra I
+                </div>
+                <ul class="card-inner-container">
+                    <li class="card-item">
+                        Notes :
+                        <div class="problem-solution-links">
+                            <a href="MA3102/notes.pdf" target="_blank">notes</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="ma3103" class="card borderless">
+                <div class="card-title">
+                    MA3103 - Introduction to Graph Theory and Combinatorics :
+                </div>
+                <ul class="card-inner-container">
+                    <li class="card-item">
+                        Notes :
+                        <div class="problem-solution-links">
+                            <a href="MA3103/notes.pdf" target="_blank">notes</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="ma3104" class="card borderless">
+                <div class="card-title">
+                    MA3104 - Linear Algebra II
+                </div>
+                <ul class="card-inner-container">
+                    <li class="card-item">
+                        Notes :
+                        <div class="problem-solution-links">
+                            <a href="MA3104/notes.pdf" target="_blank">notes</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="ma3105" class="card borderless">
+                <div class="card-title">
+                    MA3105 - Numerical Analysis
+                </div>
+                <ul class="card-inner-container">
+                    <li class="card-item">
+                        Notes :
+                        <div class="problem-solution-links">
+                            <a href="MA3105/notes.pdf" target="_blank">notes</a>
+                        </div>
+                    </li>
+                    <li class="card-item">
+                        Trapezoidal method for solving ODEs :
+                        <div class="problem-solution-links">
+                            <a href="MA3105/project/presentation.pdf" target="_blank">presentation</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div> -->
+        <div id="y2s2-label" class="card-container accordion w-15">
+            <div class="card borderless">
+                <div class="card-title">
+                    Year II, 4th Sem
+                </div>
+            </div>
+        </div>
+        <div id="y2s2-card-container" class="card-container panel">
+            <div id="sp21" class="card borderless">
+                <div class="card-title">
+                    Coming Soon
+                </div>
+                <ul class="card-inner-container">
+                    <li class="card-item">
+                        For need contact me :
+                        <div class="problem-solution-links">
+                            <a href="SP21/weierstrass/weierstrass.pdf" target="_blank">notes</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div id="y2s1-label" class="card-container accordion w-15">
+            <div class="card borderless">
+                <div class="card-title">
+                    Year II, 3rd Sem
+                </div>
+            </div>
+        </div>
+        <div id="y2s1-card-container" class="card-container panel">
+
+            <div id="es2102" class="card borderless">
+                <div class="card-title">
+                    ALC (Autometa Language And Computation)
+                </div>
+                <ul class="card-inner-container">
+                    <li class="card-item">
+                        ALC unit 1 :
+                        <div class="problem-solution-links">
+                            <a href="./sufyaan engg 3/alc/New folder/ALC Unit 1 imp upendra.pdf"
+                                target="_blank">solutions</a>
+                        </div>
+                    </li>
+
+                    <li class="card-item">
+                        ALC unit 2 :
+                        <div class="problem-solution-links">
+                            <a href="./sufyaan engg 3/alc/New folder/ALC Unit 2 imp upendra.pdf"
+                                target="_blank">solutions</a>
+                        </div>
+                    </li>
+
+                    <li class="card-item">
+                        ALC unit 3 :
+                        <div class="problem-solution-links">
+                            <a href="./sufyaan engg 3/alc/New folder/ALC Unit 3 imp upendra.pdf"
+                                target="_blank">solutions</a>
+                        </div>
+                    </li>
+
+                    <li class="card-item">
+                        ALC unit 4 :
+                        <div class="problem-solution-links">
+                            <a href="./sufyaan engg 3/alc/New folder/ALC unit 4 imp upendra.pdf"
+                                target="_blank">solutions</a>
+                        </div>
+                    </li>
+
+                    <li class="card-item">
+                        ALC unit 5 :
+                        <div class="problem-solution-links">
+                            <a href="./sufyaan engg 3/alc/New folder/ALC unit 5 imp upendra.pdf"
+                                target="_blank">solutions</a>
+                        </div>
+                    </li>
+                    <li class="card-item">
+                        ALC youtube links :
+                        <div class="problem-solution-links">
+                            <a href="./sufyaan engg 3/alc/New folder/imp ans links.docx" target="_blank">solutions</a>
+                        </div>
+                    </li>
+                    <li class="card-item">
+                        ALC PYQ'S :
+                        <div class="problem-solution-links">
+                            <a href="./sufyaan engg 3/alc/ALC PREVIOUS PAPERS.pdf" target="_blank">solutions</a>
+                        </div>
+                    </li>
+                    <li class="card-item">
+                        ALC :
+                        <div class="problem-solution-links">
+                            <a href="./sufyaan engg 3/alc/New folder/alc.pdf" target="_blank">solutions</a>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+            <div id="es2102" class="card borderless">
+                <div class="card-title">
+                    DE (Digital Electronics)
+                </div>
+                <ul class="card-inner-container">
+                    <li class="card-item">
+                        DE Notes :
+                        <div class="problem-solution-links">
+                            <a href="./sufyaan engg 3/de/New folder/DE-Notes.pdf" target="_blank">solutions</a>
+                        </div>
+                    </li>
+
+                    <li class="card-item">
+                        DE Notes MJ :
+                        <div class="problem-solution-links">
+                            <a href="./sufyaan engg 3/de/DE Notes MJ.pdf" target="_blank">solutions</a>
+                        </div>
+                    </li>
+
+                    <li class="card-item">
+                        DE qb :
+                        <div class="problem-solution-links">
+                            <a href="./sufyaan engg 3/de/DE Question Bank MJ.pdf" target="_blank">solutions</a>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+            <div id="es2102" class="card borderless">
+                <div class="card-title">
+                    DSA (Data Structures And Algorithmns)
+                </div>
+                <ul class="card-inner-container">
+                    <li class="card-item">
+                        DSA Notes :
+                        <div class="problem-solution-links">
+                            <a href="./sufyaan engg 3/dsa/DATA STRUCTURES AND ALGORITHMS_dsa full notes.pdf"
+                                target="_blank">solutions</a>
+                        </div>
+                    </li>
+
+                    <li class="card-item">
+                        DSA unit 123 :
+                        <div class="problem-solution-links">
+                            <a href="./sufyaan engg 3/dsa/DAAinternal1(unit 1,2,3).pdf" target="_blank">solutions</a>
+                        </div>
+                    </li>
+
+                    <li class="card-item">
+                        DSA 2 :
+                        <div class="problem-solution-links">
+                            <a href="./sufyaan engg 3/dsa/DSA CIE-2 (SAIf's Material).pdf" target="_blank">solutions</a>
+                        </div>
+                    </li>
+                    <li class="card-item">
+                        DSA External Imp :
+                        <div class="problem-solution-links">
+                            <a href="./sufyaan engg 3/dsa/important questions for externals.docx"
+                                target="_blank">solutions</a>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+            <div id="es2102" class="card borderless">
+                <div class="card-title">
+                    FA (Finance And Accounting)
+                </div>
+                <ul class="card-inner-container">
+                    <li class="card-item">
+                        FA Unit 1 ppt :
+                        <div class="problem-solution-links">
+                            <a href="./sufyaan engg 3/fa/F&A - Unit 1.pptx" target="_blank">solutions</a>
+                        </div>
+                    </li>
+
+                    <li class="card-item">
+                        FA Unit 2 ppt :
+                        <div class="problem-solution-links">
+                            <a href="./sufyaan engg 3/fa/F&A - Unit 2 (1).pptx" target="_blank">solutions</a>
+                        </div>
+                    </li>
+
+                    <li class="card-item">
+                        FA Unit 3 ppt :
+                        <div class="problem-solution-links">
+                            <a href="./sufyaan engg 3/fa/F & A Unit - 3.pptx" target="_blank">solutions</a>
+                        </div>
+                    </li>
+                    <li class="card-item">
+                        FA Unit 4 ppt :
+                        <div class="problem-solution-links">
+                            <a href="./sufyaan engg 3/fa/F & A  Unit - 4.pptx" target="_blank">solutions</a>
+                        </div>
+                    </li>
+                    <li class="card-item">
+                        FA Unit 5 ppt :
+                        <div class="problem-solution-links">
+                            <a href="./sufyaan engg 3/fa/F & A _ Unit - 5.pptx" target="_blank">solutions</a>
+                        </div>
+                    </li>
+                    <li class="card-item">
+                        FA Unit 1-5 :
+                        <div class="problem-solution-links">
+                            <a href="./sufyaan engg 3/fa/FINANCE AND ACCOUNTING_unit 1-5.pdf" target="_blank">solution
+                                1</a>
+                        </div><br>
+                        <div class="problem-solution-links">
+                            <a href="./sufyaan engg 3/fa/F&A complete notes.pdf" target="_blank">solution 2</a>
+                        </div>
+                    </li>
+                    <li class="card-item">
+                        FA Unit Pyq :
+                        <div class="problem-solution-links">
+                            <a href="./sufyaan engg 3/fa/F&A qp 2022.pdf" target="_blank">solution 1</a>
+                        </div><br>
+                        <div class="problem-solution-links">
+                            <a href="./sufyaan engg 3/fa/FA question paper 2021.pdf" target="_blank">solution 2</a>
+                        </div>
+                    </li>
+
+                </ul>
+
+            </div>
+            <div id="es2102" class="card borderless">
+                <div class="card-title">
+                    M3 (Math3 / Statistics)
+                </div>
+                <ul class="card-inner-container">
+                    <li class="card-item">
+                        M3 Unit 1 :
+                        <div class="problem-solution-links">
+                            <a href="./sufyaan engg 3/m3/M3 unit 1.pdf" target="_blank">solutions</a>
+                        </div>
+                    </li>
+                    <li class="card-item">
+                        M3 Unit 2 :
+                        <div class="problem-solution-links">
+                            <a href="./sufyaan engg 3/m3/M3 unit 2.pdf" target="_blank">solutions</a>
+                        </div>
+                    </li>
+                    <li class="card-item">
+                        M3 Unit 3 :
+                        <div class="problem-solution-links">
+                            <a href="./sufyaan engg 3/m3/M3 unit 3.pdf" target="_blank">solutions</a>
+                        </div>
+                    </li>
+                    <li class="card-item">
+                        M3 Unit 4 :
+                        <div class="problem-solution-links">
+                            <a href="./sufyaan engg 3/m3/M3 unit 4.pdf" target="_blank">solutions</a>
+                        </div>
+                    </li>
+                    <li class="card-item">
+                        M3 Unit 5 :
+                        <div class="problem-solution-links">
+                            <a href="./sufyaan engg 3/m3/M3 unit 5.pdf" target="_blank">solutions</a>
+                        </div>
+                    </li>
+                    <li class="card-item">
+                        M3 Formulae :
+                        <div class="problem-solution-links">
+                            <a href="./sufyaan engg 3/m3/FORMULAE.pdf" target="_blank">solutions</a>
+                        </div>
+                    </li>
+                    <li class="card-item">
+                        M3 Pyq :
+                        <div class="problem-solution-links">
+                            <a href="./sufyaan engg 3/m3/M3 AICTE papers.pdf" target="_blank">solutions</a>
+                        </div>
+                    </li>
+                    <li class="card-item">
+                        M3 Tables :
+                        <div class="problem-solution-links">
+                            <a href="./sufyaan engg 3/m3/distribution tables.pdf" target="_blank">solutions</a>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div id="es2102" class="card borderless">
+                <div class="card-title">
+                    PP (Python For Programming)
+                </div>
+                <ul class="card-inner-container">
+                    <li class="card-item">
+                        Python Notes :
+                        <div class="problem-solution-links">
+                            <a href="./sufyaan engg 3/python/New folder/backlog/Notes.pdf" target="_blank">solution
+                                1</a>
+                        </div><br>
+                        <div class="problem-solution-links">
+                            <a href="./sufyaan engg 3/python/New folder/backlog/PP.pdf" target="_blank">solution 2</a>
+                        </div>
+                    </li>
+                    <li class="card-item">
+                        Python Imp :
+                        <div class="problem-solution-links">
+                            <a href="./sufyaan engg 3/python/New folder/backlog/Python Programming important questions.docx"
+                                target="_blank">solutions</a>
+                        </div>
+                    </li>
+                    <li class="card-item">
+                        Python Unit 1 :
+                        <div class="problem-solution-links">
+                            <a href="./sufyaan engg 3/python/New folder/New folder/PP unit 1.pdf"
+                                target="_blank">solutions</a>
+                        </div>
+                    </li>
+                    <li class="card-item">
+                        Python Unit 2 :
+                        <div class="problem-solution-links">
+                            <a href="./sufyaan engg 3/python/New folder/New folder/PP unit 2.pdf"
+                                target="_blank">solutions</a>
+                        </div>
+                    </li>
+                    <li class="card-item">
+                        Python Unit 3 :
+                        <div class="problem-solution-links">
+                            <a href="./sufyaan engg 3/python/New folder/New folder/PP unit 3.pdf"
+                                target="_blank">solutions</a>
+                        </div>
+                    </li>
+                    <li class="card-item">
+                        Python Unit 5 :
+                        <div class="problem-solution-links">
+                            <a href="./sufyaan engg 3/python/New folder/New folder/PP unit 5.pdf"
+                                target="_blank">solutions</a>
+                        </div>
+                    </li>
+                    <li class="card-item">
+                        Python Web Basics :
+                        <div class="problem-solution-links">
+                            <a href="./sufyaan engg 3/python/New folder/New folder/web basics.pdf"
+                                target="_blank">solutions</a>
+                        </div>
+                    </li>
+                    <li class="card-item">
+                        Python Text Book :
+                        <div class="problem-solution-links">
+                            <a href="./sufyaan engg 3/python/Core Python Programming, Second Edition (2006).pdf"
+                                target="_blank">solutions</a>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div id="es2102" class="card borderless">
+                <div class="card-title">
+                    GS (Gender Sensitization)
+                </div>
+                <ul class="card-inner-container">
+                    <li class="card-item">
+                        GS Notes :
+                        <div class="problem-solution-links">
+                            <a href="./sufyaan engg 3/gs/GS study material all (1).doc" target="_blank">solution</a>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div id="y1s2-label" class="card-container accordion w-14">
+            <div class="card borderless">
+                <div class="card-title">
+                    Year I, 2nd Sem
+                </div>
+            </div>
+        </div>
+        <div id="y1s2-card-container" class="card-container panel">
+            <div id="ch1201" class="card borderless">
+                <div class="card-title">
+                    PPS (Programming For Prblem Solving)
+                </div>
+                <ul class="card-inner-container">
+                    <li class="card-item">
+                        pps qb :
+                        <div class="problem-solution-links">
+                            <a href="./sufyaan egg_sem2/pps/pps qb.pdf" target="_blank">solutions</a>
+                        </div>
+                    </li>
+                    <li class="card-item">
+                        pps cie2 qb :
+                        <div class="problem-solution-links">
+                            <a href="./sufyaan egg_sem2/pps/PPS CIE 2 Question Bank.docx" target="_blank">solutions</a>
+
+                        </div>
+                    </li>
+                    <li class="card-item">
+                        pps cie2 pdf :
+                        <div class="problem-solution-links">
+                            <a href="./sufyaan egg_sem2/pps/pps cie 2 pdf.pdf" target="_blank">solutions</a>
+
+                        </div>
+                    </li>
+                    <li class="card-item">
+                        pps assignment 1&2 :
+                        <div class="problem-solution-links">
+                            <a href="./sufyaan egg_sem2/pps/Pps assignment 1-2.pdf" target="_blank">solutions</a>
+
+                        </div>
+                    </li>
+                    <li class="card-item">
+                        pps assignment 3 :
+                        <div class="problem-solution-links">
+                            <a href="./sufyaan egg_sem2/pps/pps assignment 3.pdf" target="_blank">solutions</a>
+
+                        </div>
+                    </li>
+                    <li class="card-item">
+                        pps assignment 5 :
+                        <div class="problem-solution-links">
+                            <a href="./sufyaan egg_sem2/pps/pps assignment 5.pdf" target="_blank">solutions</a>
+
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            </ul>
+        </div>
+    </div>
+    <!-- <div id="y1s1-label" class="card-container accordion w-14">
+            <div class="card borderless">
+                <div class="card-title">
+                    Year I, 1st Sem
+                </div>
+            </div> -->
+    </div>
+    <div id="y1s1-card-container" class="card-container panel">
+        <div id="ch1101" class="card borderless">
+            <div class="card-title">
+                CH1101 - Elements of Chemistry
+            </div>
+            <ul class="card-inner-container">
+                <li class="card-item">
+                    The elements / waves and particles :
+                    <div class="problem-solution-links">
+                        <a href="CH1101/problemsheet1.pdf" target="_blank">problems</a>
+                        <a href="CH1101/solutionsheet1.pdf" target="_blank">solutions</a>
+                    </div>
+                </li>
+                <li class="card-item">
+                    Quantum mechanics - wavefunctions and electrons :
+                    <div class="problem-solution-links">
+                        <a href="CH1101/problemsheet2.pdf" target="_blank">problems</a>
+                        <a href="CH1101/solutionsheet2.pdf" target="_blank">solutions</a>
+                    </div>
+                </li>
+                <li class="card-item">
+                    Quantum mechanics - the shape of wavefunctions :
+                    <div class="problem-solution-links">
+                        <a href="CH1101/problemsheet3.pdf" target="_blank">problems</a>
+                        <a href="CH1101/solutionsheet3.pdf" target="_blank">solutions</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div id="es1101" class="card borderless">
+            <div class="card-title">
+                ES1101 - Earth and Planetary Sciences
+            </div>
+            <ul class="card-inner-container">
+                <li class="card-item">
+                    Earth's structure / seismology :
+                    <div class="problem-solution-links">
+                        <a href="ES1101/solutionsheet1.pdf" target="_blank">solutions</a>
+                    </div>
+                </li>
+                <li class="card-item">
+                    Supercontinents and Superplumes in the Precambrian :
+                    <div class="problem-solution-links">
+                        <a href="ES1101/supercontinents_superplumes.pdf" target="_blank">presentation</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div id="ma1101" class="card borderless">
+            <div class="card-title">
+                MA1101 - Mathematics I
+            </div>
+            <ul class="card-inner-container">
+                <li class="card-item">
+                    Set theory :
+                    <div class="problem-solution-links">
+                        <a href="MA1101/problemsheet1.pdf" target="_blank">problems</a>
+                        <a href="MA1101/solutionsheet1.pdf" target="_blank">solutions</a>
+                    </div>
+                </li>
+                <li class="card-item">
+                    Relations :
+                    <div class="problem-solution-links">
+                        <a href="MA1101/problemsheet2.pdf" target="_blank">problems</a>
+                        <a href="MA1101/solutionsheet2.pdf" target="_blank">solutions</a>
+                    </div>
+                </li>
+                <li class="card-item">
+                    Functions :
+                    <div class="problem-solution-links">
+                        <a href="MA1101/problemsheet3.pdf" target="_blank">problems</a>
+                        <a href="MA1101/solutionsheet3.pdf" target="_blank">solutions</a>
+                    </div>
+                </li>
+                <li class="card-item">
+                    Induction :
+                    <div class="problem-solution-links">
+                        <a href="MA1101/problemsheet4.pdf" target="_blank">problems</a>
+                        <a href="MA1101/solutionsheet4.pdf" target="_blank">solutions</a>
+                    </div>
+                </li>
+                <li class="card-item">
+                    Number Systems :
+                    <div class="problem-solution-links">
+                        <a href="MA1101/problemsheet5.pdf" target="_blank">problems</a>
+                        <a href="MA1101/solutionsheet5.pdf" target="_blank">solutions</a>
+                    </div>
+                </li>
+                <li class="card-item">
+                    Limits :
+                    <div class="problem-solution-links">
+                        <a href="MA1101/problemsheet7.pdf" target="_blank">problems</a>
+                        <a href="MA1101/solutionsheet7.pdf" target="_blank">solutions</a>
+                    </div>
+                </li>
+                <li class="card-item">
+                    Continuity / differentiability :
+                    <div class="problem-solution-links">
+                        <a href="MA1101/problemsheet8.pdf" target="_blank">problems</a>
+                        <a href="MA1101/solutionsheet8.pdf" target="_blank">solutions</a>
+                    </div>
+                </li>
+                <li class="card-item">
+                    Inequalities :
+                    <div class="problem-solution-links">
+                        <a href="MA1101/problemsheet9.pdf" target="_blank">problems</a>
+                        <a href="MA1101/solutionsheet9.pdf" target="_blank">solutions</a>
+                    </div>
+                </li>
+                <li class="card-item">
+                    Cubic equations :
+                    <div class="problem-solution-links">
+                        <a href="MA1101/cubic.pdf" target="_blank">notes</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div id="ls1102" class="card borderless">
+            <div class="card-title">
+                LS1102 - Biology Laboratory I
+            </div>
+            <ul class="card-inner-container">
+                <li class="card-item">
+                    Diversity (birdlife) :
+                    <div class="problem-solution-links">
+                        <a href="LS1102/bird_diversity.png" target="_blank">species</a>
+                        <a href="LS1102/bird_species_individual.png" target="_blank">species-individual</a>
+                        <a href="LS1102/bird_species_abundance.png" target="_blank">species-abundance</a>
+                    </div>
+                </li>
+                <li class="card-item">
+                    Diversity (treelife) :
+                    <div class="problem-solution-links">
+                        <a href="LS1102/tree_heatmap.png" target="_blank">map</a>
+                        <a href="LS1102/tree_diversity.png" target="_blank">species</a>
+                        <a href="LS1102/tree_species_individual.png" target="_blank">species-individual</a>
+                        <a href="LS1102/tree_species_abundance.png" target="_blank">species-abundance</a>
+                        <a href="LS1102/tree_diversity_shannon.png" target="_blank">shannon</a>
+                        <a href="LS1102/tree_diversity_simpson.png" target="_blank">simpson</a>
+                        <a href="LS1102/tree_diversity_jaccard.png" target="_blank">jaccard</a>
+                        <a href="LS1102/tree_diversity_sorenson.png" target="_blank">sorenson</a>
+                    </div>
+                </li>
+                <li class="card-item">
+                    Photospectrometry :
+                    <div class="problem-solution-links">
+                        <a href="LS1102/photospectrometry_dna.png" target="_blank">dna</a>
+                        <a href="LS1102/photospectrometry_protein.png" target="_blank">protein</a>
+                        <a href="LS1102/photospectrometry_methylene_blue.png" target="_blank">methylene blue</a>
+                        <a href="LS1102/photospectrometry_safranin.png" target="_blank">safranin</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+    <script type="text/javascript" charset="utf-8">
+        var light;
+
+        try {
+            light = JSON.parse(localStorage.getItem("light"));
+            if (light == null) { light = false; }
+        } catch (err) {
+            light = false;
+        }
+
+        function lightTheme() {
+            document.body.classList.remove("dark-theme");
+            document.body.classList.add("light-theme");
+        }
+        function darkTheme() {
+            document.body.classList.remove("light-theme");
+            document.body.classList.add("dark-theme");
+        }
+        function toggleTheme() {
+            light = !light;
+            refreshTheme();
+        }
+        function refreshTheme() {
+            theme = light ? lightTheme : darkTheme;
+            theme();
+            try {
+                localStorage.setItem("light", JSON.stringify(light));
+            } catch (err) { }
+        }
+
+        refreshTheme();
+
+        function scrollToTop() {
+            const c = document.documentElement.scrollTop || document.body.scrollTop;
+            if (c > 0) {
+                window.requestAnimationFrame(scrollToTop);
+                window.scrollTo(0, c - c / 8);
+            }
+        }
+
+        const logo_container = document.querySelector("#logo-container");
+        const nav = document.querySelector("nav");
+
+        observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    nav.classList.add("hidden")
+                } else {
+                    nav.classList.remove("hidden");
+                }
+            });
+        });
+
+        observer.observe(logo_container);
+
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+            });
+        }
+        window.addEventListener('load', function () {
+            document.getElementById("y4s2-label").click()
+        });
+    </script>
+</body>
+
+</html>
