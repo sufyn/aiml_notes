@@ -1,0 +1,63 @@
+UNIT 1
+
+Definition of AI
+Turing test
+Definition of agent.
+Foundation of AI and  fields supporting AI are same
+Structure of agent
+Types of agent
+Types of problems (real world and toy problem) 
+What is state space of an agent? 
+Difference between informed and un informed search strategies
+A*algorithm
+Greedy best first search or best first search
+IDA* algorithm 
+Difference between perfect and imperfect decisions
+What is evaluation function? 
+Min-max algorithm
+Alpha-beta pruning.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+UNIT 2
+What is knowledge base? 
+Difference between propositional logic and predicate logic? 
+What is inference? 
+What is inference engine? 
+What is resolution? 
+What are the types of knowledge representation? 
+What are frames? 
+What are semantics networks? 
+---Problem on semantic network is important----
+How planning is different from problem solving? 
+What is planning agent? 
+Difference between partial order planning and hierarchical planning?
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+UNIT 3
+How expert system helps for building AI models.? 
+Explain the phases in building an Expert system? 
+Architecture of expert system? 
+Application of Expert system
+What is uncertainty? 
+How bayes rule help in decision making? 
+What is fuzzy logic? 
+Fuzzy logic system architecture? 
+What is utility function? 
+Write a short note on utility theory?
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+UNIT 4
+How machine learning help in building AI models? 
+Difference between supervised and un supervised learning? 
+What is inductive learning? 
+What is clustering? 
+What is association? 
+Sub field's of supervised and un supervised? 
+ID3 algorithm
+What is ANN
+Difference between single layered and multilayered feed forward neural network.? 
+Neuron diagram? 
+What  is induced field? 
+What is bias? 
+How bias helps to ANN? 
+Explain learning from rewards ( re inforcement learning) 
+Applications
+Explain about passive and active re inforcement learning
+_________________________________________________________________________________
